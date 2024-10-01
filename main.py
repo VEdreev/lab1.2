@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    data_path = BASE_DIR + '\lab1.2\CO2 Emissions_Canada.csv'
+    data_path = BASE_DIR + '/lab1.2/CO2 Emissions_Canada.csv'
     data_frame = pd.read_csv(data_path)
 
     num_only_data = data_frame[data_frame.columns[[3, 4, 7, 8, 9, 10, 11]]]
